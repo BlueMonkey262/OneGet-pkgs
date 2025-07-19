@@ -1,0 +1,8 @@
+name: cowsay
+description: A program that makes a cow say things.
+sources:
+  apt: cowsay
+  flatpak: NA
+  snap: NA
+
+recommend: apt

@@ -1,0 +1,8 @@
+name: Firefox
+description: A fast browser
+sources:
+  apt: firefox
+  flatpak: org.mozilla.firefox
+  snap: NA
+
+recommend: flatpak

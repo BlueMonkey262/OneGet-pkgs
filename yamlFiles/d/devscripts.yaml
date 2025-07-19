@@ -1,0 +1,8 @@
+name: devscripts
+description: Debian's dev scripts
+sources:
+  apt: devscripts
+  flatpak: NA
+  snap: NA
+
+recommend: apt

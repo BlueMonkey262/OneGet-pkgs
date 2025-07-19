@@ -1,0 +1,9 @@
+description: Browser
+installed:
+  method: flatpak
+name: Chromium
+recommend: flatpak
+sources:
+  apt: chromium
+  flatpak: org.chromium.Chromium
+  snap: chromium
