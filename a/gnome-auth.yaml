@@ -1,0 +1,9 @@
+name: Authenticator
+description: 2FA Program by the Gnome Project
+
+sources:
+  apt: gnome-authenticator
+  flatpak: com.belmoussaoui.Authenticator
+  snap: NA
+
+recommend: flatpak
