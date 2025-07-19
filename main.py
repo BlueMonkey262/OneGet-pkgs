@@ -7,13 +7,13 @@ import os
 devMode = True
 
 if devMode == True:
-    folder = Path("/home/eli/PycharmProjects/OneGet/yamlFiles")
+    folder = Path("/home/eli/PycharmProjects/OneGet/pkgs")
     print("Set folder to: ", folder)
 else:
     if getattr(sys, 'frozen', False):
-        folder = Path(sys.executable).parent / "yamlFiles"
+        folder = Path(sys.executable).parent / "pkgs"
     else:
-        folder = Path(__file__).parent / "yamlFiles"
+        folder = Path(__file__).parent / "pkgs"
 
 if devMode == True:
     installed_folder = Path("/home/eli/PycharmProjects/OneGet/installedPackages")
